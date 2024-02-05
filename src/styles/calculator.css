@@ -1,0 +1,29 @@
+.calculator-container {
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #6ccce9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    align-self: center;
+    align-items: center;
+  }
+  
+  .calculator-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .calculator-input {
+    margin-bottom: 20px;
+  }
+  
+  .calculator-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
